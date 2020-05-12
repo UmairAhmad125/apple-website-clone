@@ -6,12 +6,12 @@ body {
     display: flex;
     flex-flow: column;
     background-image: url("../resources/background.jpg");
-    height: 500px;
+    height: 540px;
     width: 100%;
     background-color: lightblue;
     background-repeat: no-repeat;
     background-position: bottom;
-    position: fixed;
+    /* position: fixed; */
 }
 
 .nav-bar {
@@ -81,18 +81,67 @@ body {
 .content {
     display: flex;
     flex-flow: column;
-    padding-top: 20px;
+    margin-top: 30px;
     align-items: center;
     color: ivory;
 }
 
 .content h1 {
+    padding-top: 10px;
     font-size: 48px;
+    text-transform: none;
 }
 
 .content h3 {
     padding-top: 10px;
-    font-size: 38px;
+    font-size: 34px;
     max-width: 1000px;
     text-align: center;
+}
+
+.play {
+    display: flex;
+    flex-flow: row;
+    padding-top: 20px;
+}
+
+.content a {
+    font-size: 24px;
+    text-decoration: none;
+    color: ivory;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+.bottom {
+    display: flex;
+    flex-flow: row;
+    height: 200px;
+    flex-wrap: nowrap;
+    border: 2px solid white;
+    margin-right: 60px;
+}
+
+.bottom-pic1 {
+    max-width: 25%;
+}
+
+.bottom-pic2 {
+    max-width: 25%;
+}
+
+.bottom-pic3 {
+    max-width: 25%;
+}
+
+.bottom-pic4 {
+    max-width: 22%;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
 }
