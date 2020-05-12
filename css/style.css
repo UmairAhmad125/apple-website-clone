@@ -1,0 +1,98 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.background {
+    display: flex;
+    flex-flow: column;
+    background-image: url("../resources/background.jpg");
+    height: 500px;
+    width: 100%;
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: fixed;
+}
+
+.nav-bar {
+    background-color: #707070;
+    height: 30px;
+    border-radius: 3px;
+    margin-top: 80px;
+    width: 980px;
+    display: flex;
+    box-shadow: (0, 0, 0, 0.3) 0 1px 2px;
+    flex-flow: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+}
+
+.nav-gradiant {
+    /* background-image: linear-gradient(to top, #50697c 10%, #648880 92%); */
+    background: linear-gradient(to top, 90deg, rgb(181, 190, 199) 40%, rgba(181, 131, 131, 1) 77%);
+}
+
+.apple-logo img {
+    width: 15px;
+    height: 15px;
+}
+
+.nav-elements {
+    display: flex;
+    align-items: center;
+    min-width: 103px;
+    justify-content: center;
+}
+
+.nav-elements:nth-child(3n) {
+    border: .5px solid;
+    border-collapse: collapse;
+}
+
+.nav-search {
+    border-radius: 20px;
+    max-width: 100px;
+}
+
+.nav-search:focus {
+    width: 140px;
+}
+
+
+/* .hover:hover {
+    background-color: black;
+} */
+
+.nav-elements:hover {
+    background-color: black;
+    color: blue;
+}
+
+.nav-elements a {
+    text-decoration: none;
+    color: honeydew;
+}
+
+.search-image {
+    height: 15px;
+}
+
+.content {
+    display: flex;
+    flex-flow: column;
+    padding-top: 20px;
+    align-items: center;
+    color: ivory;
+}
+
+.content h1 {
+    font-size: 48px;
+}
+
+.content h3 {
+    padding-top: 10px;
+    font-size: 38px;
+    max-width: 1000px;
+    text-align: center;
+}
