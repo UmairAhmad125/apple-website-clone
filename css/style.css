@@ -16,7 +16,7 @@ body {
 
 .nav-bar {
     background-color: #707070;
-    height: 30px;
+    height: 35px;
     border-radius: 3px;
     margin-top: 80px;
     width: 980px;
@@ -29,8 +29,7 @@ body {
 }
 
 .nav-gradiant {
-    /* background-image: linear-gradient(to top, #50697c 10%, #648880 92%); */
-    background: linear-gradient(to top, 90deg, rgb(181, 190, 199) 40%, rgba(181, 131, 131, 1) 77%);
+    background: linear-gradient(180deg, rgba(92, 92, 92, 1) 0%, rgba(57, 57, 57, 1) 49%, rgba(73, 63, 63, 1) 51%, rgba(107, 116, 125, 1) 92%);
 }
 
 .apple-logo img {
@@ -43,26 +42,27 @@ body {
     align-items: center;
     min-width: 103px;
     justify-content: center;
-}
-
-.nav-elements:nth-child(3n) {
-    border: .5px solid;
-    border-collapse: collapse;
+    border-right: 1px solid grey;
 }
 
 .nav-search {
-    border-radius: 20px;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    padding-left: 1.5em;
     max-width: 100px;
+    background-color: rgb(131, 128, 128);
+    background: linear-gradient(to top, rgb(124, 128, 133) 30%, rgb(97, 80, 80) 87%);
+}
+
+.search-img img {
+    max-height: 15px;
+    position: absolute;
+    padding-right: 100px;
 }
 
 .nav-search:focus {
     width: 140px;
 }
-
-
-/* .hover:hover {
-    background-color: black;
-} */
 
 .nav-elements:hover {
     background-color: black;
@@ -84,6 +84,7 @@ body {
     margin-top: 30px;
     align-items: center;
     color: ivory;
+    font-family: 'Raleway', sans-serif;
 }
 
 .content h1 {
@@ -97,12 +98,14 @@ body {
     font-size: 34px;
     max-width: 1000px;
     text-align: center;
+    margin-top: 25px;
 }
 
 .play {
     display: flex;
     flex-flow: row;
     padding-top: 20px;
+    margin-top: 33px;
 }
 
 .content a {
@@ -143,5 +146,42 @@ body {
 .footer {
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.foot-note {
+    margin-top: 10px;
+    padding-left: 30px;
+}
+
+.foot-note p {
+    font-size: 10px;
+}
+
+.foot-note p span {
+    color: blue;
+}
+
+.foot-links {
+    font-size: 10px;
+    padding-left: 20px;
+}
+
+.foot-links a {
+    border-right: .5px solid grey;
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+.bottom-footer {
+    display: flex;
+    flex-flow: row;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left: 113px;
+}
+
+.bottom-footer p a {
+    text-decoration: none;
 }
