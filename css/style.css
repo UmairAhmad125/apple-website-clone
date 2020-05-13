@@ -8,6 +8,10 @@ body {
   max-width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .background {
   display: flex;
   flex-flow: column;
@@ -73,7 +77,6 @@ body {
 }
 
 .nav-elements a {
-  text-decoration: none;
   color: honeydew;
 }
 
@@ -113,14 +116,12 @@ body {
 
 .content a {
   font-size: 24px;
-  text-decoration: none;
   color: ivory;
 }
 
 .foot-links a {
   border-right: 0.5px solid grey;
   padding-left: 5px;
-  text-decoration: none;
   padding-right: 10px;
 }
 
