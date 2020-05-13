@@ -14,7 +14,7 @@ Apple's old website clone project
 
 
 # Live Demo #
-[live demo](https://rawcdn.githack.com/UmairAhmad125/apple-website-clone/844898265d12226c0431bba028d1d87875225651/index.html)
+[live demo](https://rawcdn.githack.com/UmairAhmad125/apple-website-clone/499e095678de5ac9f4df5985bd290a8b76c3db8e/index.html)
 
 
  # Prerequisites #
