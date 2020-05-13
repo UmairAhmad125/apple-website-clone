@@ -1,0 +1,185 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-flow: column;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.background {
+  display: flex;
+  flex-flow: column;
+  background-image: url("../resources/background.jpg");
+  height: 540px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.nav-bar {
+  background-color: #707070;
+  height: 35px;
+  border-radius: 3px;
+  margin-top: 80px;
+  max-width: 980px;
+  display: flex;
+  box-shadow: (0, 0, 0, 0.3) 0 1px 2px;
+  flex-flow: row;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+}
+
+.nav-gradiant {
+  background: linear-gradient(180deg, rgba(57, 57, 57, 1) 0%, rgba(57, 57, 57, 1) 48%, rgba(63, 63, 53, 1) 51%, rgba(107, 116, 125, 1) 92%);
+}
+
+.apple-logo img {
+  width: 15px;
+  height: 15px;
+}
+
+.nav-elements {
+  display: flex;
+  align-items: center;
+  min-width: 103px;
+  justify-content: center;
+  border-right: 1px solid grey;
+}
+
+.nav-search {
+  border-radius: 12px;
+  border: 2px solid transparent;
+  padding-left: 1.5em;
+  max-width: 100px;
+  background: linear-gradient(to top, rgb(124, 128, 133) 30%, rgb(97, 80, 80) 87%);
+}
+
+.search-img img {
+  max-height: 15px;
+  position: absolute;
+  padding-right: 100px;
+}
+
+.nav-search:focus {
+  width: 140px;
+}
+
+.nav-elements:hover {
+  background-color: black;
+  color: blue;
+}
+
+.nav-elements a {
+  color: honeydew;
+}
+
+.search-image {
+  height: 15px;
+}
+
+.content {
+  display: flex;
+  flex-flow: column;
+  margin-top: 30px;
+  align-items: center;
+  color: ivory;
+  font-family: 'Raleway', sans-serif;
+}
+
+.content h1 {
+  padding-top: 10px;
+  font-size: 48px;
+  text-transform: none;
+}
+
+.content h3 {
+  padding-top: 10px;
+  font-size: 34px;
+  max-width: 1000px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.play {
+  display: flex;
+  flex-flow: row;
+  padding-top: 20px;
+  margin-top: 33px;
+}
+
+.content a {
+  font-size: 24px;
+  color: ivory;
+}
+
+.foot-links a {
+  border-right: 0.5px solid grey;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.bottom-footer p a {
+  text-decoration: none;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
+.bottom {
+  display: flex;
+  flex-flow: row;
+  height: 200px;
+  flex-wrap: nowrap;
+  border: 2px solid white;
+  max-width: 100%;
+  justify-content: flex-start;
+}
+
+.bottom div {
+  max-width: 23.9%;
+}
+
+.foot-links a img {
+  padding-top: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.foot-note {
+  margin-top: 20px;
+  padding-left: 30px;
+}
+
+.foot-note p {
+  font-size: 10px;
+}
+
+.foot-note p span {
+  color: blue;
+}
+
+.foot-links {
+  font-size: 10px;
+  padding-left: 20px;
+}
+
+.bottom-footer {
+  display: flex;
+  flex-flow: row;
+  font-size: 10px;
+  margin-top: 20px;
+  margin-left: 95px;
+}
